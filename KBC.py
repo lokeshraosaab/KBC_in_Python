@@ -104,6 +104,8 @@ for i in range(0, len(questions)):
       money = 2000
     elif(i == 7):
       money = 8000
+    elif(i == 10):
+      money = 64000
   else:
     print("Wrong answer!")
     print(f"Correct answer is option {question[-1]}")
